@@ -14,7 +14,7 @@ response = client.chat.completions.create(
             "content": "De forma simples, o que é machine learning?"
         }
     ],
-    temperature=2.0,
+    temperature=0,
     top_p=1,
 )
 
